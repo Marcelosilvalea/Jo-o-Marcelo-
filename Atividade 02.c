@@ -42,9 +42,9 @@ int main (){
  float fahrenheit;
  printf("Informe o valor de fahrenheit: ");
  scanf("%s", fahrenheit);
-float celsius =((fahrenheit 32) * 5)/9;
+float celsius =((fahrenheit + 32) * 5)/9;
 
-printf("---Transformação da temperatura");
+printf("---Transformação da temperatura---\n");
 
 printf("Informe a nova temperatura em fahrenheit:%f", celsius);
 }
@@ -53,22 +53,21 @@ printf("Informe a nova temperatura em fahrenheit:%f", celsius);
 #include <stdio.h>
 int main(){
 
-const float PI= 3.14159;
-
+const float PI= 3.14
 
 float raio;
 
 float altura;
 
 printf("Informe o valor do raio:");
-scanf("%s",raio);
+scanf("%f",&raio);
 printf("Informe o valor da altura:");
 
-scanf("%s", altura);
+scanf("%f", &altura);
 
 float volume = PI * raio * altura;
 
-printf("Informe o volume:", volume:
+printf("Informe o volume:%f", volume);
 
   }
 
