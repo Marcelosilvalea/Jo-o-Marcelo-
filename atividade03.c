@@ -15,10 +15,6 @@ int main() {
     subtracao = num1 - num2;
     multiplicacao = num1 * num2;
 
-    if (num2 != 0){
-        printf("Numero não pode ser dividido por zero");
-    }
-
         divisao = num1 / num2;
         resto = num1 % num2;
         quociente = num1 / num2;
